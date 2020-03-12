@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: LEDE OpenWrt
+name: lede
 
 on:
   release:
