@@ -11,11 +11,11 @@ name: vssr openwrt
 on:
   release:
     types: [published]
-  push:
-    branches:
-      - master
-    paths:
-      - 'vssr.config'
+#  push:
+#    branches:
+#      - master
+#    paths:
+#      - 'vssr.config'
 #  schedule:
 #    - cron: 0 8 * * 1
 #    - cron: 0 8 * * 2
@@ -33,7 +33,7 @@ env:
   CONFIG_FILE: vssr.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
