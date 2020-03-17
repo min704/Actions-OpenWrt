@@ -24,8 +24,8 @@ on:
 #    - cron: 0 8 * * 5
 #    - cron: 0 8 * * 6
 #    - cron: 0 8 * * 0
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
@@ -34,7 +34,7 @@ env:
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: true
-  UPLOAD_BIN_DIR: false
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
 
