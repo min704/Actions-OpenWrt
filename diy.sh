@@ -11,5 +11,6 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
+git clone https://github.com/esirplayground/Lienol-obsolete/tree/master/luci-app-passwall package/luci-app-passwall
 ./scripts/feeds update -a
 ./scripts/feeds install -a
