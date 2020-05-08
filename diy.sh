@@ -10,7 +10,7 @@ sed -i 's/192.168.1.1/192.168.99.1/g' package/base-files/files/bin/config_genera
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone https://github.com/xnxy2012/luci-app-passwall.git
+git clone https://github.com/hyird/passwall  ./package
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 ./scripts/feeds update -a
 ./scripts/feeds install -a
