@@ -11,6 +11,6 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 sed -i 's/Openwrt/Kyara/g' package/base-files/files/bin/config_generate
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone https://github.com/kenzok8/openwrt-packages.git openwrt/package
+git clone https://github.com/kenzok8/openwrt-packages.git
 ./scripts/feeds update -a
 ./scripts/feeds install -a
